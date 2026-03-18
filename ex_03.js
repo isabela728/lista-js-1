@@ -24,6 +24,7 @@ function balancoFinanceiro(){
         mes++;
         soma_ganho+=ganho;
         soma_gasto+=gasto;
+        
     }
 
     saldo=soma_ganho-soma_gasto;
@@ -31,8 +32,7 @@ function balancoFinanceiro(){
     alert(
     "Ganho bruto anual: R$ " + soma_ganho + "\n" +
     "Gasto anual: R$ " + soma_gasto + "\n" +
-    "Saldo financeiro anual: R$ " + saldo
-);
+    "Saldo financeiro anual: R$ " + saldo);
 
     if(saldo>0){
         alert("Lucro!");

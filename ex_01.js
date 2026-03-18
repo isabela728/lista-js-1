@@ -12,7 +12,7 @@ function somarNumeros(){
         if (!isNaN(numero)){
             soma+=numero;
         }else{
-            alert("Por favor, digite umnúmero válido!");
+            alert("Por favor, digite um número válido!");
         }
         continuar=confirm("Deseja adicionar mais números?");
     }
