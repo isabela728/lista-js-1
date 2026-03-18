@@ -10,8 +10,9 @@ O programa deverá:
 function parImpar(){
 
     let transform=0;
+    let continuar=false;
 
-    let numero=parseFloat(prompt("Insira um número inteiro"));
+    let numero=parseInt(prompt("Insira um número inteiro"));
 
     if(numero%2==0){
         console.log("Transformando número par em ímpar...");
