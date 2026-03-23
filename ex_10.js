@@ -22,7 +22,7 @@ function folhaPagamento(){
 
     alert("Nome do funcionário: "+nome+"\n"+
         "Salário Bruto: "+salarioB+"\n"+
-        "Valor do desconto do INSS: "+desconto+"\n"+
-        "Salário líquido: "+salarioL );
+        "Valor do desconto do INSS: "+desconto.toFixed(2) +"\n"+
+        "Salário líquido: "+salarioL.toFixed(2) );
 
 }
