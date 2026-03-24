@@ -18,10 +18,9 @@ function balancoFinanceiro(){
     let soma_gasto=0;
     let saldo=0;
 
-    while(mes<12){
-        let ganho=parseFloat(prompt("Informe o ganho bruto do mês "+mes));
-        let gasto=parseFloat(prompt("Informe o gasto do mês "+mes));
-        mes++;
+    for(let i=1; i<=12; i++){
+        let ganho=parseFloat(prompt("Informe o ganho bruto do mês "+i));
+        let gasto=parseFloat(prompt("Informe o gasto do mês "+i));
         soma_ganho+=ganho;
         soma_gasto+=gasto;
         
