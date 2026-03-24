@@ -9,19 +9,18 @@ O programa deverá:
 
 function parImpar(){
 
-    let transform=0;
-    let continuar=false;
+    let transforma=0;
 
     let numero=parseInt(prompt("Insira um número inteiro"));
 
     if(numero%2==0){
         console.log("Transformando número par em ímpar...");
-        transform=numero+1;
-        console.log(transform);
+        transforma=numero+1;
+        console.log(transforma);
     }else{
         console.log("Transformando número ímpar em par...");
-        transform=numero+1;
-        console.log(transform);
+        transforma=numero+1;
+        console.log(transforma);
     }
 
 }
