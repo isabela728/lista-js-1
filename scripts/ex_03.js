@@ -14,9 +14,9 @@ O programa também deverá informar se a empresa teve:
 function balancoFinanceiro(){
 
     let mes=1;
-    let soma_ganho=0
-    let soma_gasto=0
-    let saldo=0
+    let soma_ganho=0;
+    let soma_gasto=0;
+    let saldo=0;
 
     while(mes<12){
         let ganho=parseFloat(prompt("Informe o ganho bruto do mês "+mes));
@@ -39,7 +39,7 @@ function balancoFinanceiro(){
     }else if(saldo<0){
         alert("Prejuízo!");
     }else{
-        alert("Não sobrou nada para o betinha!")
+        alert("Não sobrou nada para o betinha!");
     }
 
 }
